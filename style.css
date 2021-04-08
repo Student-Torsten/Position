@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 50vmin;
+  height: 50vmin;
+  border: 2vmin solid black;
+}
+
+.child {
+  background-color: salmon;
+  font-size: 5vmin;
+  padding: 2vmin;
+}
+:nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+:nth-child(3) {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+:nth-child(4) {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
