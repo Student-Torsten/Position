@@ -17,6 +17,7 @@ body {
   width: 50vmin;
   height: 50vmin;
   border: 2vmin solid black;
+  position: relative;
 }
 
 .child {
@@ -24,22 +25,22 @@ body {
   font-size: 5vmin;
   padding: 2vmin;
 }
-:nth-child(2) {
+.child:nth-child(2) {
   position: absolute;
   top: 0;
   right: 0;
 }
-:nth-child(1) {
+.child:nth-child(1) {
   position: absolute;
   top: 0;
   left: 0;
 }
-:nth-child(3) {
+.child:nth-child(3) {
   position: absolute;
   bottom: 0;
   left: 0;
 }
-:nth-child(4) {
+.child:nth-child(4) {
   position: absolute;
   bottom: 0;
   right: 0;
